@@ -2,167 +2,677 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Mon CV">
-    <meta name="Author" content="ETOUMI Aristide">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Mon CV</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>ETOUMI Aristide | Portfolio</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="main">
-        <div class="panel-gauche">
-            <div class="description-auteur">
-                <img src="img/photo.png" alt="">
-                <h1>Bertrand Aristide ETOUMI</h1>
-                <p>Stagiaire Développeur Fullstack <br> Java/Angular</p>
-            </div>
-            <hr>
-            <div class="contact">
-                <span><i class="fa-solid fa-phone"></i> 0779158709/0141598655</span>
-                <span><i class="fa-sharp fa-solid fa-envelope"></i>aetoumi@gmail.com</span>
-                <p><i class="fa-sharp fa-solid fa-location-dot"></i>Abidjan - Port-Bouet Gonzague-Ville</p>
-            </div>
-            <hr>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/bertrand-aristide-etoumi-b0875a101/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i>
-                <a href="https://www.facebook.com/bertrandaristide.etoumi" target="_blank"><i class="fa-brands fa-facebook"></a></i>
-                <a href="https://github.com/EtoumiAristide" target="_blank"><i class="fa-brands fa-github"></a></i>
+
+<!-- ======= Mobile nav toggle button ======= -->
+<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+<!-- ======= Header ======= -->
+<header id="header">
+    <div class="d-flex flex-column">
+
+        <div class="profile">
+            <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
+            <h1 class="text-light"><a href="index.html">Aristide ETOUMI</a></h1>
+            <div class="social-links mt-3 text-center">
+                <a href="https://www.linkedin.com/in/bertrand-aristide-etoumi-b0875a101/" target="_blank"
+                   class="linkedin"><i
+                        class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/EtoumiAristide" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+                <a href="https://www.youtube.com/channel/UCeKzaMw9WF6Eoy-Yj04pXSw" target="_blank" class="youtube"><i
+                        class="bx bxl-youtube"></i></a>
+                <a href="https://github.com/EtoumiAristide" target="_blank" class="facebook"><i
+                        class="bx bxl-facebook"></i></a>
             </div>
         </div>
-        <div class="panel-droit">
-            <div class="cv-details profile">
-                <h1><i class="fa-solid fa-user"></i>&nbsp;&nbsp; A PROPOS DE MOI</h1>
-                <hr>
+
+        <nav id="navbar" class="nav-menu navbar">
+            <ul>
+                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Accueil</span></a>
+                </li>
+                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>A Propos</span></a></li>
+                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>CV</span></a>
+                </li>
+                <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+                    <span>Projets</span></a></li>
+                <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a>
+                </li>
+                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+                </li>
+            </ul>
+        </nav><!-- .nav-menu -->
+    </div>
+</header><!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+        <h1>Aristide ETOUMI</h1>
+        <p>Je suis <span class="typed"
+                         data-typed-items="Developeur Fullstack, Java, Angular, Php, Mobile (flutter et java)"></span>
+        </p>
+    </div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>A Propos 🎗️</h2>
                 <p>Passionné par l'informatique et les nouvelles technologies, je suis sans cesse en quête de savoir.
-                    Cette quête de savoir m'a permis de travailler dans plusieurs entreprises de la place, m'offrant
-                    ainsi une expérience professionnelle d'au moins 4 ans. Je compte mettre à profit cette expérience
-                    au sein de la future entreprise qui m'accueillera et également accroitre mes compétences aussi
-                    bien techniques, professionnelles et relationnelle. Je suis beaucoup travailleur, méthodique et je
-                    ne menage aucun éffort pour accomplir mes objectifs quotidien en entreprise et dans la vie réelle.
-                </p>
+                    Cette
+                    quête de savoir m'a permis de travailler dans plusieurs entreprises de la place, m'offrant ainsi une
+                    expérience professionnelle d'environ 5 ans. Je suis disponible pour travailler en freelance sur des
+                    projets
+                    innovants et également accroitre mes compétences aussi bien techniques, professionnelles
+                    et relationnelle. Je suis beaucoup travailleur, méthodique et je ne menage aucun éffort pour
+                    accomplir mes
+                    objectifs quotidien en entreprise et dans la vie réelle.</p>
             </div>
-            <div class="cv-details education">
-                <h1><i class="fa-solid fa-graduation-cap"></i>&nbsp;&nbsp; CURSUS SCOLAIRE ET UNIVERSITAIRE</h1>
-                <hr>
-                <div class="diplome">
-                    <h3>Ingenieur de Conception option Développement d'Application
-                        et Systèmes informatiques(DASI)</h3>
-                    <h5>2017-2018 | Groupe ITA Ingenierie SA </h5>
-                    <p>Formation et renforcement des aptitudes en:</p>
-                    <ul>
-                        <li>Initiation à la culture d'entreprise</li>
-                        <li>Gestion de projets</li>
-                        <li>Administration d'entreprise </li>
-                        <li>Leadership et travail d'équipe</li>
-                        <li>Analyse et conception de systèmes de façon optimisé</li>
-                    </ul>
-                </div>
-                <div class="diplome">
-                    <h3>Ingenieur des techniques option Développement d'Application
-                        et Systèmes informatiques(DASI)</h3>
-                    <h5>2016-2017 | Groupe ITA Ingenierie SA</h5>
-                    <p>Formation et renforcement des aptitudes en:</p>
-                    <ul>
-                        <li>Gestion de projets informatiques</li>
-                        <li>Droits des TICs</li>
-                        <li>Entrepreneuriat</li>
-                        <li>Développement de Micro-services</li>
-                        <li>Conception de systèmes électroniques automatisés (feux tricolores, afficheurs numériques)
-                            via les outils PROTEUS et MicroC</li>
-                    </ul>
-                </div>
-                <div class="diplome">
-                    <h3>Licence professionnelle option Sciences informatiques (SI)</h3>
-                    <h5>2015-2016 | Groupe ITA Ingenierie SA</h5>
-                    <p>Formation et renforcement des aptitudes en:</p>
-                    <ul>
-                        <li>Réseaux informatiques et télécom</li>
-                        <li>Virtualisation des serveurs</li>
-                        <li>Configuration réseaux, mise en place et sécurisation de serveurs Linux et Windows Server
-                        </li>
-                        <li>Mise en place de service VOIP</li>
-                        <li>Routing, Cablage de réseaux informatiques</li>
-                        <li>Utilisation de l'Atelier Génie logiciels PowerDesigner pour la conception de base de données
-                        </li>
-                    </ul>
-                </div>
-                <div class="diplome">
-                    <h3>Brevet de Technicien Supérieur option informatique Développeur d'Applications (BTS IDA)</h3>
-                    <h5>2012-2014 | Groupe ITA Ingenierie SA</h5>
-                    <p>Formation au métier de Développeur d'Applications Informatiques et services web</p>
-                    <ul>
-                        <li>Réseaux informatiques et télécom</li>
-                        <li>Architecture des ordinateurs</li>
-                        <li>Initiation à l'informatique</li>
-                        <li>Analyse et conception de systèmes informatiques par la méthode MERISE</li>
-                        <li>Algorithmique et résolutions de problèmes complexes</li>
-                        <li>Initiation à la programmation informatique (langage pascal, C, HTML, CSS, JavaScript)</li>
-                        <li>Droit du travail et des affaires</li>
-                        <li>Comptabilité et gestion d'entreprises</li>
-                    </ul>
-                </div>
-                <div class="diplome">
-                    <h3>Baccalauréat Serie D</h3>
-                    <h5>2011-2012 | Lycée Municipal de Port-Bouet</h5>
-                </div>
-            </div>
-            <div class="cv-details skills">
-                <h1><i class="fa-solid fa-wand-magic-sparkles"></i>&nbsp;&nbsp; DOMAINES DE COMPETENCE</h1>
-                <hr>
-                <div class="skills-desc">
 
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS, Bootstrap</li>
-                        <li>JavaScript, JQuery</li>
-                        <li>MySQL</li>
-                    </ul>
-
-                    <ul>
-                        <li>Java, JavaFX</li>
-                        <li>Merise</li>
-                        <li>UML</li>
-                        <li>Methodologie AGILE (Scrum)</li>
-                    </ul>
-
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="assets/img/profile2.jpg" class="img-fluid" alt="">
                 </div>
-            </div>
-            <div class="cv-details experience">
-                <h1><i class="fa-solid fa-layer-group"></i>&nbsp;&nbsp; EXPERIENCE PROFESSIONNELLE</h1>
-                <hr>
-                <div class="diplome">
-                    <h3>Stagiaire Développeur Fullstack Java/Angular</h3>
-                    <h5>ATOS COTE D'IVOIRE / Depuis Décembre 2022</h5>
-                    <p>Stage de formation et renforcement des capacités en Soft-Skill (Design-phinking, 
-                        méthodologie Agile/Scrum, développement personnel et culture d'entreprise) et Hard-Skill
-                        (Java - SpringBoot / Angular)
+                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <h3>Mobile &amp; Fullstack Java/Angular Developer.</h3>
+                    <p class="fst-italic">
+                        HTML, CSS, JS, Angular, PHP, Java, Github, Scrum, Laravel, Codeigniter, Slim, Spring Boot,
+                        JavaFX, mobile
+                        (Java & flutter)
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="age"></span>
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                                    <span>aetoumi@gmail.com</span>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Résidence:</strong> <span>Abidjan Port-Bouet, Côte
+                      d'Ivoire</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Niveau d'étude:</strong>
+                                    <span>Master 2</span></li>
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
+                                    <span>Disponible</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Tel:</strong> <span>(+225) 0779158709 /
+                      0141598655</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>
+                        N'hésitez pas à me joindre via email ou whatsapp sur mes numeros de téléphone mobile si vous
+                        avez des
+                        projets web ou mobile à mettre en place. Je suis disposer à vous apporter ma contribution aussi
+                        bien en
+                        matière de conseils que technique.<br><b> &quot;On ne finit jamais d'apprendre&quot; </b> comme
+                        dit
+                        l'adage 😊
                     </p>
                 </div>
-                <div class="diplome">
-                    <h3>Développeur Logiciels</h3>
-                    <h5>ASCEND TECHNOLOGY SARL / Août 2018 - Décembre 2022</h5>
-                    <p>Conception et développement des solutions logicielles issues de la branche
-                        hiérarchique supérieure, proposition de solutions logicielles, amélioration
-                        et maintenance de logiciels existants</p>
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Moi en chiffres 💎</h2>
+                <p>Toujours heureux d'apporter ma contribution pour vous faciliter la vie dans votre travail et votre
+                    quotidien. </p>
+            </div>
+
+            <div class="row no-gutters">
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                    <div class="count-box">
+                        <i class="bi bi-emoji-smile"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p><strong>Clients satisfaits</strong></p>
+                    </div>
                 </div>
-                <div class="diplome">
-                    <h3>Développeur Logiciels</h3>
-                    <h5>HOREBLINE SARL / Novembre 2017 - Août 2018</h5>
-                    <p>Conception et déploiement des solutions logicielles, amélioration et maintenance
-                        de logiciels existants</p>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="count-box">
+                        <i class="bi bi-journal-richtext"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p><strong>Projets</strong> Dont 7 pour le ministère de la justice</p>
+                    </div>
                 </div>
-                <div class="diplome">
-                    <h3>Stagiaire Technico-commercial</h3>
-                    <h5>INTELSOFT AFRIQUE / Mai 2015 - Juillet 2015</h5>
-                    <p>Attaché au responsable du service Recherches et Développement</p>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="count-box">
+                        <i class="bi bi-code"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p><strong>Ligne de codes</strong> +500 000 lignes de codes ecrites</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="count-box">
+                        <i class="bi bi-people"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p><strong>Collaborations</strong> sur des projets anonymes</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Compétences ✨</h2>
+                <p>Découvrez ci-dessous mes compétences principales dans les langages web, mobile et desktop</p>
+            </div>
+
+            <div class="row skills-content">
+
+                <div class="col-lg-6" data-aos="fade-up">
+
+                    <div class="progress">
+                        <span class="skill">HTML <i class="val">100%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                 aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">CSS <i class="val">80%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                 aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">JavaScript <i class="val">100%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                 aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="progress">
+                        <span class="skill">PHP, Laravel, Codeigniter, SLim <i class="val">90%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                 aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">JavaSE, JavaFX, Spring Boot<i class="val">80%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                 aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">Angular <i class="val">80%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                 aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="progress">
+                        <span class="skill">Android | Java <i class="val">75%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                 aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="progress">
+                        <span class="skill">Android | Flutter <i class="val">60%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                 aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>CV 👨🏽‍🎓</h2>
+                <p>Voici en resumé mon experience professionnel en tant que Développeur Fullstack. </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h3 class="resume-title">Resumé</h3>
+                    <div class="resume-item pb-0">
+                        <h4>Aristide Etoumi</h4>
+                        <p><em>Developpeur Fullstack Java/Angular avec environ 5 ans d'expérience dans le domaine du
+                            développement
+                            web, mobile et desktop. </em></p>
+                        <ul>
+                            <li>Abidjan Port-Bouët, Côte d'Ivoire</li>
+                            <li>(+225) 0779158709</li>
+                            <li>aetoumi@gmail.com</li>
+                            <li><a href="">Télecharger mon CV complet</a></li>
+                        </ul>
+                    </div>
+
+                    <h3 class="resume-title">Education</h3>
+                    <div class="resume-item">
+                        <h4>Certificat Développeur Fulstack Java/Angular</h4>
+                        <h5>Dec 2022 - Mar 2023</h5>
+                        <p><em>Developper.Institute, Tel-Aviv, Israël <br>Atos Bull CI, Plateau Avenue Nogues, Côte
+                            d'Ivoire</em>
+                        </p>
+                        <p>Double diplomation Développeur Fullstack Java/Angular décernée par Developpeur.Institute et
+                            ATOS
+                            DIGITAL ACADEMY</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Master 2 Genie logiciel</h4>
+                        <h5>2017 - 2018</h5>
+                        <p><em>Groupe ITA Ingenierie SA, Marcory, CIV</em></p>
+                        <p>Diplome d'ingenieur de conception avec spécialisation en développement de systèmes
+                            informatiques pour
+                            entreprises et particulier</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="resume-title">Experience Professionnelle</h3>
+                    <div class="resume-item">
+                        <h4>Stagiaire développeur Fullstack</h4>
+                        <p><em>Dans le cadre du programme ATOS DIGITAL ACADEMY </em></p>
+                        <h5>Dec 2022 - Mar 2023</h5>
+                        <p><em>Atos Bull CI, Plateau Avenue Nogues, Abidjan </em></p>
+                        <p>Stage de formation avec renforcement des capacités en :</p>
+                        <ul>
+                            <li>Soft-Skills: Design phinking, Travail en équipe, Résolution des conflits, Prise de
+                                parole en public
+                                Méthodologie Agile avec Scrum, Confiance en soi
+                            </li>
+                            <li>Hard-Skills: ANGULAR, JAVA, SPRING BOOT</li>
+                            <li>Gestion de projets</li>
+                            <li>Outils de collaborations: Git, Github, Notion, Trello, Loom</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Développeur Logiciels</h4>
+                        <h5>Août 2018 - Déc 2022</h5>
+                        <p><em>Ascend Technology, Cocody Riviera 2, Abidjan</em></p>
+                        <ul>
+                            <li>Création d'une application de gestion des formalités du Registre du Commerce
+                                et du Crédit Mobilier (RCCM)
+                            </li>
+                            <li>Création d'une application de gestion des activités judiciaires</li>
+                            <li>Création d'une application de Gestion électronique de documents (GED)</li>
+                            <li>Création d'une application de numérisation (scan) de documents issus des formalités</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Projets 🎖️</h2>
+                <p>Parceque j'aime le travail bien fait, je vous presente une liste succinte des projets sur lesquels
+                    j'ai eu
+                    à travailler durant ma jeune et modeste carriere.</p>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">Tout</li>
+                        <li data-filter=".filter-app">Desktop</li>
+                        <li data-filter=".filter-card">Web</li>
+                        <!-- <li data-filter=".filter-web">Mobile</li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/etribcom_accueil.jpg" class="img-fluid" alt="Etribcom">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/etribcom_accueil.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"
+                               title="ETRIBCOM: Plateforme de gestion électronique des tribunaux de commerce en Côte d'Ivoire"><i
+                                    class="bx bx-plus"></i></a>
+                            <a href="https://etribcomweb.tcabidjan.ci/" target="_blank" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/wifi-time-manager.png" class="img-fluid"
+                             alt="Wifi Time Manager App">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/wifi-time-manager.png" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"
+                               title="Wifi Time Manager: Plateforme de gestion des temps de connexion et des clients pour un cyber-café"><i
+                                    class="bx bx-plus"></i></a>
+                            <a href="#" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/pme-manager-dash.png" class="img-fluid" alt="PME Manager App">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/pme-manager-dash.png" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"
+                               title="PME Manager: Plateforme de gestion de PME (client, stock, paie, finance, etc)"><i
+                                    class="bx bx-plus"></i></a>
+                            <a href="#" target="_blank" title="Plus de Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/money-estimation-dash.gif" class="img-fluid"
+                             alt="Money Estimation App">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/money-estimation-dash.gif" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"
+                               title="Money Estimation: Plateforme de gestion de maquis, bar et restaurant."><i
+                                    class="bx bx-plus"></i></a>
+                            <a href="#" title="Plus de Details" target="_blank"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/sanwi-site.png" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/sanwi-site.png" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox"
+                               title="Boutique en ligne Sanwi Informatique"><i class="bx bx-plus"></i></a>
+                            <a href="https://sanwi-informatique.com/" target="_blank" title="Plus de Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/symphonie-imprimerie.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/symphonie-imprimerie.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="Site vitrine + boutique an ligne Symphonie Imprimerie"><i
+                                    class="bx bx-plus"></i></a>
+                            <a href="https://symphonie-imprimerie.com/" target="_blank" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Services ⚖️</h2>
+                <p>Mes prestations sont diverses, vous pourrez profiter de mes services acquis au cours de mes années
+                    d'experience au sein de diverses entreprises de la place.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <div class="icon"><i class="bi bi-browser-chrome"></i></div>
+                    <h4 class="title">Developpement web</h4>
+                    <p class="description">Réalisation de sites web, boutique en ligne, applications web etc.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon"><i class="bi bi-laptop"></i></div>
+                    <h4 class="title"><a href="">Développement desktop</a></h4>
+                    <p class="description">Conception et réalisation d'application sur mésure pour PC et bureaux. Les
+                        applications que nous concevons sont multi-plateforme (windows, MacOs, Linux) </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon"><i class="bi bi-phone"></i></div>
+                    <h4 class="title"><a href="">Developpement mobile</a></h4>
+                    <p class="description">Nous concevons vos applications mobiles sur mesure et directement accessibles
+                        via les
+                        boutiques PlayStore(Android) et AppSotre(IPhone)</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon"><i class="bi bi-binoculars"></i></div>
+                    <h4 class="title"><a href="">Gestion de projets</a></h4>
+                    <p class="description">Grace aux aptitudes que nous avons acquis en methodologie de gestion de
+                        projets
+                        AGILE, plus précisement SCRUM, vous pouvez nous confier la gestion de vos projet en toute
+                        sécurité. Nous
+                        nous chargeons de tout.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon"><i class="bi bi-brightness-high"></i></div>
+                    <h4 class="title"><a href="">Consultance informatique</a></h4>
+                    <p class="description">Nous restons disponible pour vous coatcher durant chaque etape de réalisation
+                        de vos
+                        projets, que ce soit pour vous apporter des conseils ou pour vous mettre à disposition notre
+                        savoir-faire
+                        technique </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                    <div class="icon"><i class="bi bi-command"></i></div>
+                    <h4 class="title"><a href="">Freelance</a></h4>
+                    <p class="description">Nous seront ravi de vous apporter notre expertise en travaillant avec vous en
+                        freelance dans vos différents projets informatques</p>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Contact 🎀</h2>
+                <p>Laissez nous un message, nous nous chargerons de vous repondre dans le plus bref délais.</p>
+            </div>
+
+            <div class="row" data-aos="fade-in">
+
+                <div class="col-lg-12 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Résidence:</h4>
+                            <p>Abidjan, Port-Bouët (Côte d'Ivoire)</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>aetoumi@gmail.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Tel:</h4>
+                            <p>(+225) 0779158709 - 0141598655</p>
+                        </div>
+
+                        <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <!--<div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form id="sendMailForm" action="" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Votre Nom</label>
+                                <input type="text" name="name" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">Votre Email</label>
+                                <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Titre</label>
+                            <input type="text" class="form-control" name="subject" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea class="form-control" name="message" rows="10" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" id="submitForm" class="btn btn-primary">Envoyer message</button>
+                        </div>
+                        <div id="mailResponse">
+
+                        </div>
+                    </form>
+                </div>-->
+
+            </div>
+
+        </div>
+    </section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<!-- <footer id="footer">
+  <div class="container"> -->
+<!-- <div class="copyright">
+      &copy; Copyright <strong><span>iPortfolio</span></strong>
+    </div> -->
+<!-- <div class="credits"> -->
+<!-- All the links in the footer should remain intact. -->
+<!-- You can delete the links only if you purchased the pro version. -->
+<!-- Licensing information: https://bootstrapmade.com/license/ -->
+<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+<!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+<!-- </div> -->
+<!-- </div>
+</footer>End  Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/custom.js"></script>
+
 </body>
 
 </html>
