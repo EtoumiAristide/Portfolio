@@ -40,14 +40,35 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: 25px;
+  bottom: 180px;
   z-index: 996;
   background: #149ddd;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50px;
   transition: all 0.4s;
+}
+
+.whatsapp{
+  position: fixed;
+  right: 25px;
+  bottom: 100px;
+  z-index: 996;
+  background: #4AC75A;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.whatsapp:hover{
+  color: white;
+}
+
+.whatsapp i{
+  font-size: 30px;
 }
 
 .back-to-top i {
